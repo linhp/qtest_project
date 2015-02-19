@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Suite" verbose="1">
+  <test name="Junit: Component Test">
+    <classes>
+       <class name="junitTest.ComponentTest" />
+    </classes>
+  </test>
+
+  <test name="TestNG: Module Test">
+    <classes>
+       <class name="testModule.ModuleTest" />
+    </classes>
+  </test>
+
+  <test name="TestNG: Team Member Test">
+    <classes>
+       <class name="testTeam.MemberTest" />
+    </classes>
+  </test>
+</suite>
